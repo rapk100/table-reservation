@@ -1,0 +1,103 @@
+.my-order {
+    margin: 50px 0px;
+    font-family: Arial, sans-serif;
+}
+
+.my-order h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #454545;
+}
+
+.my-order div {
+    margin-bottom: 20px;
+}
+
+.my-order p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.my-order strong {
+    font-weight: bold;
+    color: #333;
+}
+
+.my-order ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.my-order li {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my-order .dish-name {
+    font-size: 16px;
+    font-weight: 500;
+    color: #454545;
+}
+
+.my-order .dish-price {
+    font-size: 16px;
+    color: tomato;
+}
+
+.my-order button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: #ff6f61;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.my-order button:hover {
+    background-color: #e55e51;
+}
+
+.my-order .reservation-data {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-top: 30px;
+}
+
+.my-order .reservation-data p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.my-order .reservation-data p span {
+    font-weight: bold;
+    color: #ff6f61;
+}
+
+.my-order .dish-list {
+    margin-top: 15px;
+}
+
+.my-order .payment-method {
+    margin-top: 15px;
+}
+
+.my-order .payment-method p {
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+}
+
+.my-order .payment-method span {
+    font-size: 14px;
+    color: #888;
+}
